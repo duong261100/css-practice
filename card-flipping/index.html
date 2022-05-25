@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  
-  <div class="card middle">
-    <div class="front">
-      <img src="./background.jpg" alt="">
-    </div>
-    <div class="back">
-      <div class="back-content middle">
-        <h2>Have a good day!</h2>
-        <span>Contact me</span>
-        <div class="sm">
-          <a href=""><i class="fab fa-facebook-f"></i></a>
-          <a href=""><i class="fab fa-facebook-f"></i></a>
-          <a href=""><i class="fab fa-facebook-f"></i></a>
-          <a href=""><i class="fab fa-facebook-f"></i></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipping Card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__inner">
+        <div class="card__face card__face--front">
+          <h2>Click this Card</h2>
+        </div>
+        <div class="card__face card__face--back">
+          <div class="card__content">
+            <div class="card__header">
+              <div class="avatar">
+                <img src="https://thumbs.dreamstime.com/b/cute-cat-portrait-square-photo-beautiful-white-closeup-105311158.jpg" alt="" />
+              </div>
+              <h2>
+                Duong Vu
+              </h2>
+            </div>
+            <div class="card__body">
+              <h3>Intern Developer</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                inventore eos vitae voluptatem vel blanditiis iste animi
+                officiis, consectetur corporis atque tenetur aspernatur neque
+                minima maxime porro sequi hic iusto!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-</body>
+    <script src="./main.js"></script>
+  </body>
 </html>
